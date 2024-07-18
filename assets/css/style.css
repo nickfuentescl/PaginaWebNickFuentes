@@ -1,0 +1,131 @@
+body {
+    background-color: #f6f7f1;
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    overflow-x: hidden;
+}
+
+
+.colornavbar {
+    background-color: #f6f7f1;
+}
+
+.poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-black-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.titulo {
+    font-size: 6.5rem;
+}
+
+@media (min-width: 768px) {
+    .padingprimeraimagen {
+        padding-top: 19rem;
+    }
+}
+
+/* Movimiento fade derecha e izquierda */
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+
+.another-hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(100%);
+    transition: all 1s;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+@media(prefers-reduced-motion) {
+    .hidden {
+        transition: none;
+    }
+}
+
+.haru {
+    transition-delay: 400ms;
+}
+
+/* fin de movimiento fade derecha e izquierda */
+
+/* Media Query de tarjetas y media de transicion */
+
+@media (min-width: 768px) {
+    .padding3imanes {
+        padding-top: 4rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .terceraimagenproyecto {
+        padding-top: 28rem;
+    }
+}
+
+.PoryectoSuHistoria {
+    transition-delay: 200ms;
+}
+
+.ProyectoYoVisible {
+    transition-delay: 400ms;
+}
+
+.ProyectoCartoons {
+    transition-delay: 600ms;
+}
+
+/*  */
+
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+.hrvertical {
+    border: none;
+    border-left: 3px solid #000 !important;
+    height: 100vh;
+    width: 1px;
+}
+
+footer {
+    background-color: #F2EFDF;
+}
+
+i {
+    display: inline-block;
+    font-size: 4rem;
+}
